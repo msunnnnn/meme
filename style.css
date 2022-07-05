@@ -1,0 +1,39 @@
+body{
+    background-color: #244441
+}
+
+h1{
+    display: flex;
+    justify-content:space-around;
+    color: #f1a18d;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f1a18d;
+}
+img {
+    height: 500px;
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text1 {
+    position:relative;
+    top:50px;
+    font-size: 30pt;
+    z-index: 2;
+    text-align: center;
+}
+
+.text2{
+    position:relative;
+    bottom: 50px;
+    font-size: 30pt;
+    z-index: 2;
+    text-align: center;
+}
